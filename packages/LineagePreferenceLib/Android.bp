@@ -19,6 +19,7 @@ android_library {
     min_sdk_version: "30",
     static_libs: [
         "androidx.preference_preference",
+        "SettingsLib",
         "SettingsLibMainSwitchPreference",
         "org.lineageos.platform",
     ],
